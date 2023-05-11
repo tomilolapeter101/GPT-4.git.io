@@ -1,0 +1,44 @@
+.text-brand{
+    font-family: 'lato', sans-serif;
+}
+
+.nav-link{
+    color: white;
+    margin: 0 1rem;
+}
+
+.nav-link:hover{
+    color: #f8134c;
+}
+
+.sign-in{
+color: white;
+padding: 0.5rem 1rem;
+font-weight: 500;   
+}
+
+.btn{
+    border-radius: 5px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    
+    background-color: #f8134c;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    border: none;
+}
+
+.btn-sign{
+    border-radius: 5px;
+    line-height: 25px;
+    font-weight: 500;
+    padding: 0.43rem 1rem;
+    border-color: #f8134c;
+    background-color:transparent;
+    color: white;
+    margin: 1rem;
+    
+}

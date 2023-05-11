@@ -1,0 +1,49 @@
+.cta-section{
+    background: linear-gradient(103.22deg, #0000FF -13.84%, #f8134c 99.55% );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+}
+
+.text-dark2{
+    color: black;
+}
+
+  .btn-cta  {
+    background-color: black  !important; 
+    
+    outline: none;
+    border: none;  
+}
+
+@media screen and (max-width:650px ) {
+    .cta-section{
+        flex-direction: column;
+    }
+
+    .btn-cta{
+        margin: 2rem 0 0;
+
+    }
+}
+
+@media screen and (max-width:550px ) {
+    .cta-section{
+        margin: 4rem 2rem;
+    }
+
+    .cta-section h3{
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .btn-cta{
+        font-size: 14px;
+        line-height: 28px;
+        
+    }
+}
